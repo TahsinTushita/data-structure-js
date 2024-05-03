@@ -31,6 +31,15 @@ arr.shift(); // [1, 2, 3, 4]
 arr.reverse(); // [4, 3, 2, 1]
 arr.reverse(); // [1, 2, 3, 4]
 
+// convert an array to a string
+const array1 = [1, 2, "a", "1a"];
+console.log(array1.toString()); // "1,2,a,1a"
+
+// concats 2 arrays
+const ac1 = [1, 2, 3];
+const ac2 = [4, 5];
+console.log(ac1.concat(ac2)); // [1, 2, 3, 4, 5]
+
 // join elements of an array based on the given argument to form a string
 const elements = ["Fire", "Air", "Water"];
 console.log(elements.join()); // "Fire,Air,Water"
